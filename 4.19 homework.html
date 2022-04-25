@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretest</title>
+</head>
+<body>
+    <table border="11" width="500px">
+        <form action="https://kredo.jp/" method="get">
+        <tr></tr>
+            <td> <label for="">Full Name*</label></td>
+            <td> <input type="text" name="Full Name" id="Full Name" placeholder="First Name" required minlength="10"></td>
+            <td> <input type="text" name="Full Name" id="Full Name" placeholder="Last Name" required minlength="10"></td>
+        </tr>
+        <tr>
+            <td> <label for="">Uninersity*</label></td>
+            <td colspan="2">
+                <select aria-colspan="2" name="University" id="University">
+                    <option value="" hidden>Select University</option>
+                    <option value="London University">London University</option>
+                    <option value="Tokyo University">Tokyo University</option>
+                    <option value="Harvard University">Harvard University</option>
+               </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>If Other-Please Specify</td>
+            <td colspan="2">
+                <textarea name="" id="" cols="70" rows="3"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Faculty*</td>
+            <td colspan="2">
+                <select aria-colspan="2" name="Faculty" id="Faculty">
+                    <option value="" hidden>Select Faculty</option>
+                    <option value="Law">Law</option>
+                    <option value="Science">Science</option>
+                    <option value="Psycology">Psycology</option>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>If Other-Please Specify</td>
+            <td colspan="2">
+             <textarea name="" id="" cols="70" rows="3"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Academic year of PhD*</td>
+            <td colspan="2">
+                <select aria-colspan="2" name="PhD Year" id="PhD Year">
+                    <option value="" hidden>Select Year</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Where would you like to work?</td>
+            <td colspan="2">
+                 <div>
+                    <input type="checkbox" name="work" id="Academia" value="Academia">
+                    <label for="Academia">Academia</label>
+                    <br>
+                    <input type="checkbox" name="work" id="Industry" value="Industry">
+                    <label for="Industry">Industry</label>
+                    <br>
+                    <input type="checkbox" name="work" id="Consultancy" value="Consultancy">
+                    <label for="Consultancy">Consultancy</label>
+                    <br>
+                    <input type="checkbox" name="work" id="Finance" value="Finance">
+                    <label for="Finance">Finance</label>
+                    <br>
+                    <input type="checkbox" name="work" id="Policy/Goverment/NGO" value="Policy/Goverment/NGO">
+                    <label for="Policy/Goverment/NGO">Policy/Goverment/NGO</label>
+                 </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">E-mail*</td>
+            <td colspan="2"> 
+                <input type="email" name="email" id="email" placeholder="ex. myname@example.com" width="300px">
+            </td>
+            <br>
+            <td>
+               
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <input type="email" name="email" id="email" placeholder="Confirm Email" width="300px">
+            </td>
+        </tr>
+
+        <tr>
+           <td>Would you like to sign up to our newsletter?</td>
+           <td colspan="2">
+            <input type="radio" name="Yes or Not" value="Yes" id="Yes">
+            <label for="Yes">Yes</label>
+            <br>
+            <input type="radio" name="Yes or Not" value="No,I have already signed up" id="No,I have already signed up">
+            <label for="No,I have already signed up">No,I have already signed up</label>
+            <br>
+            <input type="radio" name="Yes or Not" value="No" id="No">
+            <label for="No">No</label>
+           </td>
+        </tr>
+        <br><br>%
+        <tr>
+            <td colspan="3">
+                <input type="submit" name="submit" value="Send">
+            </td>
+        </tr>
+       
+      
+
+        
+    </table>
+    
+</body>
+</html>

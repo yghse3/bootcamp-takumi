@@ -1,0 +1,171 @@
+
+
+.box1{
+    width: 50%;
+    background-color: grey;
+    color: yellow;
+    text-align: center;
+    border: 5px solid red;   
+    /* padding: 20px ; */
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    /* margin: 50px 30px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    box-sizing: border-box;    /*maintain the size of the box  */
+}
+
+
+.box2{
+    background-color: grey;
+    width: 50%;
+    color: yellow;
+    text-align: center;
+    border: 5px solid red;
+    box-sizing: border-box;
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin: 50px auto;
+    /* border: none; */
+}
+.box2:hover{
+    background-color: turquoise;
+    width: 50%;
+    color: yellow;
+    text-align: center;
+    border: 10px solid red;
+    box-sizing: border-box;
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin: 50px auto;
+    /* border: none; */
+
+}
+
+
+
+/* text-allign
+
+   left
+   center
+   right
+
+ */
+
+ /* border   
+      1st value = border-width
+      2nd value = border-style
+      3rd value = border-color
+ */
+
+ /* padding
+      one value only = for all sides
+      two values 
+         first value = top and bottom side
+         second value = right and left
+
+      three values
+         first value = top side
+         second value = right and left
+         third value = bottom side
+
+      four values
+        first value = top side
+         second value = right side
+         third value = bottom side
+         fourth value =left side
+
+  */
+  /* hr */
+   hr{
+      width: 30%;
+      height: 2px;
+      background-color: red;
+      border: none;
+  } 
+
+  .solid{
+      height: 50px;
+      width: 100px;
+      /* border-width: 5px;
+      border-style: solid;
+      border-color: tomato; */
+      border: 5px solid tomato;
+      border-top: 10px double tomato;
+      border-right: 10px dotted tomato;
+  }
+
+  .dotted{
+      height: 50px;
+      width: 100px;
+      border: 5px dotted teal;
+      border-bottom: 10px ridge teal
+      border-left 10px inset teal
+  }
+
+/* 
+   dashed = crimson
+   double = seagreen
+   groove = purple
+   ridge = gray
+   inset = dodgerblue
+   outset = goldenrod
+*/
+
+  .dash{
+    height: 50px;
+    width: 100px;
+    border: 5px dashed crimson;
+}
+
+.double{
+    height: 50px;
+    width: 100px;
+    border: 5px double seagreen;
+}
+
+.groove{
+    height: 50px;
+      width: 100px;
+      border: 5px groove purple;
+}
+
+.ridge{
+    height: 50px;
+      width: 100px;
+      border: 5px ridge gray;
+}
+
+.inset{
+    height: 50px;
+      width: 100px;
+      border: 5px inset dodgerblue;
+}
+.outset{
+    height: 50px;
+      width: 100px;
+      border: 5px outset goldenrod;
+}
+
+.radius{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    /* border-radius: 50px; */
+    border-radius: 300px;
+}
+
+/* box-shadow */
+.box-shadow{
+    box-shadow: 10px -15px 10px red;
+    border: 1px solid black;
+}
+
+.box-shadow:hover{
+    box-shadow: 10px -15px 10px yellow;
+    border: 1px solid black;

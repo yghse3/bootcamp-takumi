@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway&display=swap');
+
+/*
+    font-family: 'Oswald', sans-serif;
+　　　font-family: 'Raleway', sans-serif;
+
+*/
+
+
+/* CSS Selectors */
+/* Unibersal Selector Using (*) = call all elements*/
+
+/* *{ 
+   background-color: yellowgreen;
+   color: ;
+}*/
+
+
+/* Elements Selector */
+
+
+
+body{
+    background-color: darkgoldenrod;
+    }
+
+.titlelogo{
+            background-color: darkmagenta;
+            height: 40px;
+            width: 100%;
+          }
+
+span{
+      color: aqua;
+     }
+
+h1{
+     
+    color: white;
+     }
+
+p{
+     color: white;
+     }
+
+.container1{
+              background-color: darkorchid; 
+              height: 200px;
+               width: 100%;
+              }
+
+h2{   
+      background-color: darkmagenta;
+      color: white;
+     } 
+
+     .container2{
+        background-color: lightgreen; 
+        height: 200px;
+         width: 100%;
+        }
+
+
+/* id selector */
+#con3{
+    background-color: lightseagreen;
+}
+
+/* and selector using (,) */
+
+h1,
+h2,
+{
+    color: gainsboro;
+}
+
+/* descendant selector using (space)*/
+#con3 h2 span {
+    color: orange;
+}
+
+
+/* CSS Typography */
+/* CSS Color */
+/* rgb（red,green,blue) */
+
+.container4{
+    background-color: rgb(226,84,11);
+}
+
+
+/* rgba(red,green,blue, alpha channnel) 
+
+     alpha channnel = contorol the transparency/visibility
+                 0 = not visible at all
+                 .5= 50% visible
+                 1 = 100% visible
+*/
+
+.container5{
+    background-color: rgba(226,84,11, .5);
+}
+
+/* opacity 
+
+      o = not visible at all
+      .5= 50% visible
+      1 = 100% visible
+*/
+
+.container6{
+               background-color: rgb(226,84,11);
+               opacity: 1;
+}
+
+/* hexcode */
+.container7{
+    background-color: #125B50;
+}
+/* font-family 
+          1.serif
+          2.sans-serif
+          3.monospace
+          */
+.container8{
+    font-family: sans-serif;
+}
+
+/* import font-family */
+.container9 h2{
+    font-family: 'Oswald', sans-serif
+}
+
+.container9 p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* font-size 
+     1.px = 16px (default)
+     2.% = 100%
+     3. em = 1
+
+     default = fonts is 16px
+
+      */
+.container10 h2 {
+     font-size: 50px; 
+}
+.container10 p {
+    font-size: 32px; 
+}
+
+/* font-weight
+      1. lighter
+      2. normal
+      3. bold
+
+      100 - 900
+*/
+.container11 h2 {
+    font-weight: 900;
+}
+
+.container11 p {
+    font-weight:bold;
+}
+/* font-style
+
+      1.normal
+      2.italic
+      3.oblique
+
+*/
+.container11 p{
+    font-style: italic;
+}
+
+/* text-transform
+
+       1. uppercase
+       2. lowercase
+       3. capitalize
+
+*/
+.container11 h2{
+    text-transform:
+    uppercase;
+}
+
+/*  text-decoration
+         1. overline
+         2. underline
+         3.line-through
+
+*/
+.container11 p{
+       text-decoration: 
+       line-through;
+}
+.container11 a{
+    text-decoration: 
+    none;
+}
+/* 
+      text-align
+
+      1.left = default
+      2.center
+      3.right
+*/
+
+
+
+
+/* text-shadow
+       1st value = horizontal(- go to left), (+ go to right)
+       2ns value = vertical(- go up), (+ go down)
+       3rd value = b
+
+*/
+.container11 h2{
+    text-shadow: 3px 0 3px #069A8E;
+}
+
+/* text-indent 
+        px, % em
+*/
+.container1 p {
+    text-indent: 50px;
+}
+
+.container2 p{
+    text-indent: 5%;
+}
+
+.container3 p{
+    text-indent: 5em;
+}
+
+
+/* letter-spacing */
+.container1 p {
+    letter-spacing: 5px;
+}
+
+/* word-spacing */
+.container2 p{
+     word-spacing: 5px;
+}
+/* CSS List 
+ 
+     unordered list
+        none
+        disc
+        circle
+        square
+
+    ordered list
+
+
+*/
+
+   
+
+
+.container12 ul li{
+    list-style: 
+    circle;
+}
+
+/* list=style-position*/
+.container12 ol {
+    background-color: darkmagenta;
+    color: white;
+}
+.container12 ol li{
+    background-color: darkmagenta;
+}
